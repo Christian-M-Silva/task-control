@@ -1,0 +1,33 @@
+- Criar o projeto
+- Criar interface de ITasks
+    - id: number
+    - title: string
+    - task: string
+    - status: bool
+- Criar a estrutura de redux
+    - Incluir o slice de tasks
+    - O tipo de dado a ser guardado será um array do tipo ITasks
+    - Incluir uma função de add tasks que irá receber 2 valores o title e o description e dentro dele gera um numero que não se repete aleatorio para a task
+    - Incluir uma função de alterar o status de tasks que só alterar o status da tasks de acordo com o id recebido por param
+- Criar um componente chamado card
+    - Recebera duas props de string que é o title e description
+    - estilização
+        - O tema na parte superior
+        - A descrição mais abaixo
+        - A borda será arredondada
+        - O background do card será validado se o status estiver marcado como true ele é green senão red
+        - Checbox no card isso posso ver no tawildin que receberá o value do status no redux
+            - Ao clicar ele chama a função do redux de alterar o estado do status daquele card ele deverá de alguma forma passar o id do checkbox do card que foi clicado
+- Criar um componente chamado modalcomponet posso puxar estilização do tawildin css
+    - 1 input escrito title para escrever o titulo da task
+    - 1 input abaixo escrito description, para escrever a descrição da tarefa
+    - 1 botão de add task, que chama a função do redux de addTasks
+- Tela inicial 
+    - Titulo escrito tasks
+    - 1 botão de add task, abre o modalComponent
+    - Vai ser renderizado um array de cards que será o cardComponent, que vou pegar do estado do redux e renderizar usando o .map, passando como props para o card os dados vinos do redux
+
+- TESTES
+    - Inicializar o redux com qualquer task em que um esteja com o status true e o outro false, no fim um tem que está marcado e outro não
+    - Ver se ao marcar ou desmarcar o checkbox ele desmarca mesmo e alterar a cor do card
+    - Ver se o card abre normalmente
