@@ -1,9 +1,9 @@
-- Criar o projeto
-- Criar interface de ITasks
-    - id: number
-    - title: string
-    - task: string
-    - status: bool
+x Criar o projeto
+x Criar interface de ITasks
+    x id: number
+    x title: string
+    x task: string
+    x status: bool
 - Criar a estrutura de redux
     - Incluir o slice de tasks
     - O tipo de dado a ser guardado será um array do tipo ITasks
