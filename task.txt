@@ -11,16 +11,16 @@ x Criar a estrutura de redux
     x Incluir uma função de alterar o status de tasks que só alterar o status da tasks de acordo com o id recebido por param
     x Incluir uma função de deletar task de acordo com o id recebido por param
     x Finalizar de ajustar a estrutura do redux
-- Criar um componente chamado card
-    - Recebera duas props de string que é o title e description
-    - estilização
-        - O tema na parte superior
-        - A descrição mais abaixo
-        - A borda será arredondada
-        - O background do card será validado se o status estiver marcado como true ele é green senão red
-        - Checbox no lado esquerdo superior no card isso posso ver no tawildin que receberá o value do status no redux
-            - Ao clicar ele chama a função do redux de alterar o estado do status daquele card ele deverá de alguma forma passar o id do checkbox do card que foi clicado
-        - Um botão de lixeira a direita na parte superior direito ao ser clicado pega o id do card e passa para a função de deletar task usando a ação do redux
+x Criar um componente chamado card
+    x Recebera 3 props de string que é o title e description e id e 1 que é um bool de status
+    x estilização
+        x O tema na parte superior
+        x A descrição mais abaixo
+        x A borda será arredondada
+        x O background do card será validado se o status estiver marcado como true ele é green senão red
+        x Checkbox no lado esquerdo superior no card isso posso ver no tawildin que receberá o value do status no redux
+            x Ao clicar ele chama a função do redux de alterar o estado do status daquele card ele deverá de alguma forma passar o id do checkbox do card que foi clicado
+        x Um botão de lixeira a direita na parte superior direito ao ser clicado pega o id do card e passa para a função de deletar task usando a ação do redux
 - Criar um componente chamado modalComponentDeAddtasks posso puxar estilização do tawildin css
     - 1 input escrito title para escrever o titulo da task
     - 1 input abaixo escrito description, para escrever a descrição da tarefa
