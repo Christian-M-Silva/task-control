@@ -12,7 +12,7 @@ type cardProp = {
 export function Card({ title, description, status, id }: cardProp) {
   const dispatch = useDispatch<AppDispatch>();
 
-  return (<div className={`max-w-md mx-auto rounded-xl overflow-hidden shadow-lg border border-gray-200 ${status ? 'bg-green-500' : 'bg-red-500'}`}>
+  return (<div className={`max-w-md mx-auto rounded-xl overflow-hidden shadow-lg border border-gray-200 ${status ? 'bg-green-500' : 'bg-red-500'} mb-1`}>
     <div className="flex items-start p-4">
       <input type="checkbox" className="mt-1 h-5 w-5 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500" checked={status} onClick={()=> dispatch(toggleStatusTask({id}))}/>
 

@@ -25,15 +25,14 @@ x Criar um componente chamado modalComponentDeAddtasks posso puxar estilização
     x 1 input escrito title para escrever o titulo da task
     x 1 input abaixo escrito description, para escrever a descrição da tarefa
     X 1 botão de add task, que chama a função do redux de addTasks
-- Tela inicial 
-    - Titulo escrito tasks mais para  a esquerda
-    - 1 botão de add task a direita, abre o modalComponentDeAddtasks
-    - Ao lado do botão de add tasks um outro botão que abre um modal de filtroComponent
-    - Vai ser renderizado um array de cards que será o cardComponent, que vou pegar do estado do redux e renderizar usando o .map, passando como props para o card os dados vinos do redux
+x Tela inicial 
+    x Titulo escrito tasks mais para  a esquerda
+    x 1 botão de add task a direita, abre o modalComponentDeAddtasks
+    x Vai ser renderizado um array de cards que será o cardComponent, que vou pegar do estado do redux e renderizar usando o .map, passando como props para o card os dados vinos do redux
 
 - TESTES
-    - Inicializar o redux com qualquer task em que um esteja com o status true e o outro false, no fim um tem que está marcado e outro não
-    - Ver se ao marcar ou desmarcar o checkbox ele desmarca mesmo e alterar a cor do card
-    - Ver se o card abre normalmente
-    - Ver se consigo add tasks normalmente
-    - Ver se consigo deletar tasks normalmente
+    x Inicializar o redux com qualquer task em que um esteja com o status true e o outro false, no fim um tem que está marcado e outro não
+    x Ver se ao marcar ou desmarcar o checkbox ele desmarca mesmo e alterar a cor do card
+    x Ver se o card abre normalmente
+    x Ver se consigo add tasks normalmente
+    x Ver se consigo deletar tasks normalmente
