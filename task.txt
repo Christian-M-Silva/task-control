@@ -21,10 +21,10 @@ x Criar um componente chamado card
         x Checkbox no lado esquerdo superior no card isso posso ver no tawildin que receberá o value do status no redux
             x Ao clicar ele chama a função do redux de alterar o estado do status daquele card ele deverá de alguma forma passar o id do checkbox do card que foi clicado
         x Um botão de lixeira a direita na parte superior direito ao ser clicado pega o id do card e passa para a função de deletar task usando a ação do redux
-- Criar um componente chamado modalComponentDeAddtasks posso puxar estilização do tawildin css
-    - 1 input escrito title para escrever o titulo da task
-    - 1 input abaixo escrito description, para escrever a descrição da tarefa
-    - 1 botão de add task, que chama a função do redux de addTasks
+x Criar um componente chamado modalComponentDeAddtasks posso puxar estilização do tawildin css
+    x 1 input escrito title para escrever o titulo da task
+    x 1 input abaixo escrito description, para escrever a descrição da tarefa
+    X 1 botão de add task, que chama a função do redux de addTasks
 - Tela inicial 
     - Titulo escrito tasks mais para  a esquerda
     - 1 botão de add task a direita, abre o modalComponentDeAddtasks
